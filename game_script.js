@@ -15,7 +15,7 @@ const img1 = document.getElementsByTagName("img")[0];
 window.onload = function() {
   document.querySelector('#startbutton').addEventListener('click', function(e) {
     e.preventDefault();
-    let count = 10;
+    let count = 30;
     let id = setInterval(function() {
       count--;
       document.querySelector('#timer').textContent = count;
