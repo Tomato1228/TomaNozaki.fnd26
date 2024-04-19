@@ -64,11 +64,11 @@ function changeImage(score) {
     if (score >= 150) {
         imageElement.src = "https://github.com/Tomato1228/TomaNozaki.fnd26/blob/main/flower1.png?raw=true"; // スコアが150以上の場合の画像
     } else if (score >= 100) {
-        imageElement.src = "flower2.png"; // スコアが100以上の場合の画像
+        imageElement.src = "https://github.com/Tomato1228/TomaNozaki.fnd26/blob/main/flower2.png?raw=true"; // スコアが100以上の場合の画像
     } else if (score >= 50) {
-        imageElement.src = "flower3.png"; // スコアが50以上の場合の画像
+        imageElement.src = "https://github.com/Tomato1228/TomaNozaki.fnd26/blob/main/flower3.png?raw=true"; // スコアが50以上の場合の画像
     } else {
-        imageElement.src = "flowerNormal.png" //スコアが50点未満の画像
+        imageElement.src = "https://github.com/Tomato1228/TomaNozaki.fnd26/blob/main/flowerNormal.png?raw=true" //スコアが50点未満の画像
     }
 }
 
