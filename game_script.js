@@ -62,7 +62,7 @@ flowerbutton.addEventListener('click', incrementScore);
 function changeImage(score) {
     let imageElement = document.querySelector('#flowerbutton img');
     if (score >= 150) {
-        imageElement.src = "flower1.png"; // スコアが150以上の場合の画像
+        imageElement.src = "https://github.com/Tomato1228/TomaNozaki.fnd26/blob/main/flower1.png?raw=true"; // スコアが150以上の場合の画像
     } else if (score >= 100) {
         imageElement.src = "flower2.png"; // スコアが100以上の場合の画像
     } else if (score >= 50) {
