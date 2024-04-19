@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game_style.css">
+    <title>Click Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Play Game</h1>
+        <div class="textcontainer">
+            <p>　Time Limit :　</p>
+            <p id="timer">10</p>
+            <p>　Your Score :　</p>
+            <p id="scorecounter">0</p>
+        </div>
+    </div>
+    <div class="flowerimage">
+        <p id="flowerbutton"><img src="flowerNormal.png" class="button1" width="250" height="250" alt="Flower"></p>
+    </div>
+    <div class="undercontainer">
+        <p>Please Click Me</p>
+    </div>
+    <div class="center">
+        <button id="startbutton" onclick="startbutton.disabled = true">GO!!!!!!!!</button>
+        <button id="returnbutton" onclick="location.href='main.html'">Return Main</button>  
+    </div>
+<script src = game_script.js>    
+</script>    
+</body>
+</html>
