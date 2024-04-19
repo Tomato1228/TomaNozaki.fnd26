@@ -1,0 +1,93 @@
+/*背景の色設定--------------------------------------------------------------------------*/
+body {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*文字の位置、色、などの設定-------------------------------------------------------------*/
+
+.container h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+}
+
+.container p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+}
+
+.textcontainer {
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    position: relative;
+    top: -20px; /* 要素を上に20px移動 */
+}
+
+.flowerimage p{
+    text-align: center;
+}
+
+.undercontainer p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+}
+/*---------------------------------------------------------------------------------------*/
+.center {
+    text-align: center;
+} 
+
+/*Flowerimageをボタンにする設定-----------------------------------------------------------*/
+img.button1:hover{
+
+/* 透明度を上げることで、画像の色を薄く見せる。*/
+    opacity:0.8;
+
+/* リンクをホバーしたときのカーソルにする。*/
+cursor: pointer;
+}
+
+img.button1:active{
+
+/* 要素を若干下に下げることで、押した感じを出す。*/
+
+/* 今いる位置から相対的に10px下に配置する。*/
+position: relative;
+top: 10px;
+
+}
+/*----------------------------------------------------------------------------------------*/
+#start {
+    text-decoration: none;
+    display: block;
+    background: gray;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+#startbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* ボタンの背景色 */
+    color: white; /* ボタンのテキスト色 */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#startbutton:hover {
+    background-color: #45a049; /* ホバー時の背景色 */
+}
