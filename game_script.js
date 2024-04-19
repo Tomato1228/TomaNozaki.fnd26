@@ -37,7 +37,7 @@ window.onload = function() {
           text3.textContent = "Too Bad..."
         }
       }
-    }, 1000);
+    }, 3000);
   });
 }
 
